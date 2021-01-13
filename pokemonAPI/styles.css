@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', sans-serif;
+}
+
+body {
+    width: 90vw;
+    height: 90vh;
+    margin: 0 auto;
+    background: #bce2c3;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #bce2c3;
+    height: 100%;
+    width: 100%;
+}
+
+
+.display-results {
+    margin-top: 20px;
+    background-color:#D7F4DD;
+    box-shadow: 5px 5px 5px 5px #b2ebbe;
+    border-radius: 10px;
+    height: 80vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+article {
+    display: flex;
+    flex: 400px;
+    justify-content: center;
+    align-content: center;
+}
+
+
+p {
+    display: flex;
+    align-self: center;
+
+    width: 100px;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 1em;
+}
+
+img {
+    width: 250px;
+}
+
+
+button {
+    width: 10%;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 999px;
+}
+
+button:hover{
+    background-color: rgba(0,0,0,.8);
+    border-color: #28F216;
+    color: #01F50D;
+    transition: all .3s ease-in;
+}
+button:focus{
+    outline: none;
+}
+
+.buttons-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    float: right;
+}
